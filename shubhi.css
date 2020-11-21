@@ -80,7 +80,7 @@ html,body{
 }
 
 #overlay3 #rec2{
-    width: 10%;
+    width: 12%;
     height: 20.6%;
     background-color: #40C5AA;
     border-radius: 3px;
@@ -88,7 +88,7 @@ html,body{
 #rec2 h4{
     position: relative;
     top: 50%;
-    left: 65%;
+    left: 72%;
     transform: translate(-50%, -50%);
     font-size: 10px;
     letter-spacing: 1px;
