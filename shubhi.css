@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: montserrat;
+    box-sizing:border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#background{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    width: 100%;
+    height: 100%;
+}
+#background img{
+    width: 100%;
+    height: 100%;
+}
+
+#overlay{
+    padding-right: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+#overlay1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 12.5%;
+    background-color: transparent;
+}
+#overlay2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 18.5%;
+    background-color: transparent;
+}
+#overlay3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    background-color: transparent;
+}
+#overlay3 #rec1{
+    width: 22%;
+    height: 20.6%;
+    background-color: #fff;
+    border-radius: 3px;
+}
+#rec1 h4{
+    position: relative;
+    top: 48%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    letter-spacing: 1px;
+    opacity: .5;
+    color: grey;
+
+}
+
+#overlay3 #rec2{
+    width: 10%;
+    height: 20.6%;
+    background-color: #40C5AA;
+    border-radius: 3px;
+}
+#rec2 h4{
+    position: relative;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    opacity: .7;
+    color: #fff;
+
+}
+
+#overlay4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60.5%;
+}
+#overlay4 h4{
+    font-size: 9px;
+    opacity: .5;
+    letter-spacing: .4px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding: 0 100px;
+}
+nav #left{
+    display: flex;
+    align-items: center;
+}
+nav #left h4{
+    position: absolute;
+    top: 2.5%;
+    font-size: 16px;
+    font-family: playfair display;
+}
+
+nav #right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 38.5%;
+    padding-right: 38%;
+    width: 100%;
+}
+nav #right h4{
+    color: #F6695B;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav #right a{
+    color: black;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav #circle1{
+    position: absolute;
+    left: 91%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #F6695B;
+}
+#circle1 i{
+    position: relative;
+    top: 23%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+nav #circle2{
+    position: absolute;
+    left: 93.7%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #F6695B;
+}
+#circle2 i{
+    position: relative;
+    top: 23%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+nav #circle3{
+    position: absolute;
+    left: 95%;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #F6695B;
+    margin-left: 20px;
+}
+#circle3 i{
+    position: relative;
+    top: 23%;
+    left:25%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#overlay1 #content{
+    width: 50%;
+    height: 30%;
+    background-color: white;
+}
+
+#overlay1 h4{
+    font-family: poppins;
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+#overlay2 h4{
+    font-family: poppins;
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: .3px;
+}
+
+#image1{
+    position: absolute;
+    top: 45.5%;
+    left: 73%;
+    width: 24%;
+    height: 45%;
+}
+#image1 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#image2{
+    position: absolute;
+    top: 53.5%;
+    left: 38%;
+    width: 21%;
+    height: 47%;
+}
+#image2 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#image3{
+    position: absolute;
+    top: 46%;
+    left: -3.5%;
+    width: 30%;
+    height: 40%;
+}
+#image3 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
